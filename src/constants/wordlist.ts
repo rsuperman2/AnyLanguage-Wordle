@@ -55,6 +55,18 @@ export const WORDS = [
   'dwarf',
   'happy',
   'dopey',
+  'baloo',
+  'mushu',
+  'tramp',
+  'jafar',
+  'simba',
+  'pongo',
+  'brave',
+  'sally',
+  'story',
+  'padme',
+  'queen',
+  'windu',
 ]
 
 if (CONFIG.normalization) {
