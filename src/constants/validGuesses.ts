@@ -55,7 +55,7 @@ export const VALIDGUESSES = [
   'dwarf',
   'happy',
   'dopey',
-   'aahed',
+  'aahed',
   'aalii',
   'aargh',
   'aarti',
