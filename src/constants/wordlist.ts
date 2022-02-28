@@ -37,7 +37,7 @@ export const WORDS = [
   'bambi',
   'fauna',
   'flash',
-  'g̱enie',
+  'genie',
   'hades',
   'darth',
   'vader',
