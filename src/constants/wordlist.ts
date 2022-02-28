@@ -40,7 +40,7 @@ export const WORDS = [
   'g̱enie',
   'hades',
   'darth',
-  'vader,
+  'vader',
   'magic',
   'white',
   'pluto',
