@@ -67,6 +67,19 @@ export const WORDS = [
   'padme',
   'queen',
   'windu',
+  'gizmo',
+  'pride',
+  'groot',
+  'hydra',
+  'grubs',
+  'hyena',
+  'sofia',
+  'rogue',
+  'ronin',
+  'proud',
+  'storm',
+  'thing',
+  'venom',
 ]
 
 if (CONFIG.normalization) {
