@@ -2,7 +2,7 @@ import { KeyValue } from '../../lib/keyboard'
 import { getStatuses } from '../../lib/statuses'
 import { Key } from './Key'
 import { useEffect } from 'react'
-import { ORTHOGRAPHY } from '../../constants/orthography'
+//import { ORTHOGRAPHY } from '../../constants/orthography'
 import { useTranslation } from 'react-i18next'
 
 type Props = {
