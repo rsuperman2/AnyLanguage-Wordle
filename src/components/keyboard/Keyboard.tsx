@@ -2,7 +2,7 @@ import { KeyValue } from '../../lib/keyboard'
 import { getStatuses } from '../../lib/statuses'
 import { Key } from './Key'
 import { useEffect } from 'react'
-//import { ENTER_TEXT, DELETE_TEXT } from '../../constants/strings'
+import { ENTER_TEXT, DELETE_TEXT } from '../../constants/strings'
 //import { ORTHOGRAPHY } from '../../constants/orthography'
 import { useTranslation } from 'react-i18next'
 
@@ -74,7 +74,8 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
       </div>
       <div className="flex justify-center">
         <Key width={65.4} value="ENTER" onClick={onClick}>
-         {t('enterKey')}
+         //{t('enterKey')}
+         {ENTER_TEXT}
          
         </Key>
         {['Z', 'X', 'C', 'V', 'B', 'N', 'M'].map((key) => (
@@ -87,7 +88,8 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
           />
         ))}
         <Key width={65.4} value="DELETE" onClick={onClick}>
-         {t('deleteKey')}
+         //{t('deleteKey')}
+         {DELETE_TEXT} 
        
         </Key>
       </div>
