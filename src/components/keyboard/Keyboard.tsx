@@ -50,47 +50,42 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
   return (
     <div>
       <div className="flex justify-center mb-1">
-        {ORTHOGRAPHY.slice(0, Math.floor(ORTHOGRAPHY.length * 0.4)).map(
-          (char) => (
-            <Key
-              key={char}
-              value={char}
-              onClick={onClick}
-              status={charStatuses[char]}
-            />
-          )
-        )}
+        {['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'].map((key) => (
+          <Key
+            value={key}
+            key={key}
+            onClick={onClick}
+            status={charStatuses[key]}
+            isRevealing={isRevealing}
+          />
+        ))}
       </div>
       <div className="flex justify-center mb-1">
-        {ORTHOGRAPHY.slice(
-          Math.floor(ORTHOGRAPHY.length * 0.4),
-          Math.floor(ORTHOGRAPHY.length * 0.7)
-        ).map((char) => (
+        {['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'].map((key) => (
           <Key
-            key={char}
-            value={char}
+            value={key}
+            key={key}
             onClick={onClick}
-            status={charStatuses[char]}
+            status={charStatuses[key]}
+            isRevealing={isRevealing}
           />
         ))}
       </div>
       <div className="flex justify-center">
-        <Key key="enterKey" width={65.4} value="ENTER" onClick={onClick}>
-          {t('enterKey')}
+        <Key width={65.4} value="ENTER" onClick={onClick}>
+          {ENTER_TEXT}
         </Key>
-        {ORTHOGRAPHY.slice(
-          Math.floor(ORTHOGRAPHY.length * 0.7),
-          ORTHOGRAPHY.length
-        ).map((char) => (
+        {['Z', 'X', 'C', 'V', 'B', 'N', 'M'].map((key) => (
           <Key
-            key={char}
-            value={char}
+            value={key}
+            key={key}
             onClick={onClick}
-            status={charStatuses[char]}
+            status={charStatuses[key]}
+            isRevealing={isRevealing}
           />
         ))}
-        <Key key="deleteKey" width={65.4} value="DELETE" onClick={onClick}>
-          {t('deleteKey')}
+        <Key width={65.4} value="DELETE" onClick={onClick}>
+          {DELETE_TEXT}
         </Key>
       </div>
     </div>
