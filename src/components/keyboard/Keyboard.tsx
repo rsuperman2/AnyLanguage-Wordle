@@ -56,7 +56,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
             key={key}
             onClick={onClick}
             status={charStatuses[key]}
-            isRevealing={isRevealing}
+          
           />
         ))}
       </div>
@@ -67,7 +67,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
             key={key}
             onClick={onClick}
             status={charStatuses[key]}
-            isRevealing={isRevealing}
+            
           />
         ))}
       </div>
@@ -81,7 +81,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
             key={key}
             onClick={onClick}
             status={charStatuses[key]}
-            isRevealing={isRevealing}
+            
           />
         ))}
         <Key width={65.4} value="DELETE" onClick={onClick}>
