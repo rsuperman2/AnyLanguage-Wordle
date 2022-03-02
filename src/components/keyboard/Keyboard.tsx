@@ -75,7 +75,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
       <div className="flex justify-center">
         <Key width={65.4} value="ENTER" onClick={onClick}>
          {t('enterKey')}
-         //{ENTER_TEXT} 
+         
         </Key>
         {['Z', 'X', 'C', 'V', 'B', 'N', 'M'].map((key) => (
           <Key
@@ -88,7 +88,7 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
         ))}
         <Key width={65.4} value="DELETE" onClick={onClick}>
          {t('deleteKey')}
-         //{DELETE_TEXT}
+       
         </Key>
       </div>
     </div>
