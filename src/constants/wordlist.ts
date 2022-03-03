@@ -1,7 +1,7 @@
 import { CONFIG } from './config'
 
 export const WORDS = [
-  'mouse',
+ /* 'mouse',
   'ariel',
   'beast',
   'belle',
@@ -139,7 +139,7 @@ export const WORDS = [
   'water',
   'house',
   'lucas',
-  'rides',
+  'rides', */
   'aurora'
 ]
 
