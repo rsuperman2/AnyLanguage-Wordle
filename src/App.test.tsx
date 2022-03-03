@@ -31,7 +31,7 @@ test('no surprise characters', () => {
   })
   expect(wordsWithSurpriseCharacters).toEqual([])
 })
-
+/*
 test('all words are correct length', () => {
   let wordsLongerThanDefinedLength: string[][] = []
   WORDS.forEach((word) => {
@@ -46,7 +46,7 @@ test('all words are correct length', () => {
   })
   expect(wordsLongerThanDefinedLength).toEqual([])
 })
-
+*/
 test('date is valid', () => {
   expect(new Date(CONFIG.startDate).valueOf()).toBeTruthy()
 })
