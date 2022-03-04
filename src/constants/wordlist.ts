@@ -139,7 +139,8 @@ export const WORDS = [
   'water',
   'house',
   'lucas',
-  'rides'
+  'rides',
+  'kuzco'
 ]
 
 if (CONFIG.normalization) {
